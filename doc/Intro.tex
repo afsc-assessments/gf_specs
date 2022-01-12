@@ -1,0 +1,484 @@
+\documentclass[]{tufte-handout}
+
+% ams
+\usepackage{amssymb,amsmath}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \makeatletter
+  \@ifpackageloaded{fontspec}{}{\usepackage{fontspec}}
+  \makeatother
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \makeatletter
+  \@ifpackageloaded{soul}{
+     \renewcommand\allcapsspacing[1]{{\addfontfeature{LetterSpace=15}#1}}
+     \renewcommand\smallcapsspacing[1]{{\addfontfeature{LetterSpace=10}#1}}
+   }{}
+  \makeatother
+
+\fi
+
+% graphix
+\usepackage{graphicx}
+\setkeys{Gin}{width=\linewidth,totalheight=\textheight,keepaspectratio}
+
+% booktabs
+\usepackage{booktabs}
+
+% url
+\usepackage{url}
+
+% hyperref
+\usepackage{hyperref}
+
+% units.
+\usepackage{units}
+
+
+\setcounter{secnumdepth}{-1}
+
+% citations
+
+
+% pandoc syntax highlighting
+
+% longtable
+
+% multiplecol
+\usepackage{multicol}
+
+% strikeout
+\usepackage[normalem]{ulem}
+
+% morefloats
+\usepackage{morefloats}
+
+
+% tightlist macro required by pandoc >= 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% title / author / date
+\title{GOA Plan Team Report}
+\author{Gulf of Alaska Plan Team}
+\date{11/27/2021}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\begin{document}
+
+\maketitle
+
+
+
+
+\hypertarget{totals}{%
+\section{Totals}\label{totals}}
+
+\begin{table}
+\centering
+\begin{tabular}[t]{l|r|r|r|r}
+\hline
+Species & OFL 2022 & ABC 2022 & OFL 2023 & ABC 2023\\
+\hline
+Pollock & 170,133 & 144,444 & 168,247 & 143,275\\
+\hline
+Pacific Cod & 29,131 & 24,043 & 27,715 & 22,882\\
+\hline
+Sablefish &  & 22,794 &  & 22,003\\
+\hline
+Shallow-water Flatfish & 62,273 & 50,610 & 65,676 & 53,486\\
+\hline
+Deep-water Flatfish & 7,026 & 5,908 & 6,920 & 5,818\\
+\hline
+Rex Sole & 23,302 & 19,141 & 25,049 & 20,594\\
+\hline
+Arrowtooth Flounder & 143,100 & 119,779 & 141,231 & 118,201\\
+\hline
+Flathead Sole & 48,928 & 40,175 & 48,757 & 40,046\\
+\hline
+Pacific ocean perch & 45,580 & 38,268 & 44,196 & 37,104\\
+\hline
+Northern Rockfish & 6,143 & 5,146 & 5,874 & 4,920\\
+\hline
+Shortraker Rockfish & 940 & 705 & 940 & 705\\
+\hline
+Dusky Rockfish & 8,614 & 5,372 & 8,146 & 5,181\\
+\hline
+Rougheye and Blackspotted Rockfish & 947 & 788 & 937 & 781\\
+\hline
+Demersal shelf rockfish & 422 & 268 & 422 & 268\\
+\hline
+Thornyhead Rockfish & 2,604 & 1,953 & 2,604 & 1,953\\
+\hline
+Other Rockfish & 5,320 & 4,054 & 5,320 & 4,054\\
+\hline
+Atka mackerel & 6,200 & 4,700 & 6,200 & 4,700\\
+\hline
+Big Skate & 3,822 & 2,867 & 3,822 & 2,867\\
+\hline
+Longnose Skate & 3,616 & 2,712 & 3,616 & 2,712\\
+\hline
+Other Skates & 1,311 & 984 & 1,311 & 984\\
+\hline
+Sharks & 5,006 & 3,755 & 5,006 & 3,755\\
+\hline
+Octopuses & 1,307 & 980 & 1,307 & 980\\
+\hline
+Total &  & 499,446 &  & 497,269\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{pollock}{%
+\subsection{Pollock}\label{pollock}}
+
+\hypertarget{summary-table}{%
+\subsubsection{Summary table}\label{summary-table}}
+
+Status and catch specifications (t) of pollock and projections for 2022
+and 2023. Biomass for each year corresponds to the projection given in
+the SAFE report issued in the preceding year (age 3+ for W/C/WYAK and
+survey biomass for SEO). The OFL and ABC for 2022 and 2023 are those
+recommended by the Plan Team. Catch data were through November 6th,
+2021. The GOA-wide and W/C/WYAK ABCs listed in this table are before
+reductions for the Prince William Sound GHL. However, the federal TACs
+from earlier years reflect reductions from the ABC due to State waters
+GHL. State waters GHL was computed as 2.5\% of the total W/C/WYAK ABC.
+
+\begin{table}
+\centering
+\begin{tabular}[t]{l|r|r|r|r|r|r|r|r}
+\hline
+Area & OFL 2021 & ABC 2021 & TAC 2021 & Nov 6 Catch & OFL 2022 & ABC 2022 & OFL 2023 & ABC 2023\\
+\hline
+State GHL &  & 2,643 &  &  &  & 3,327 &  & 3,298\\
+\hline
+W (610) &  & 18,477 & 18,477 & 18,112 &  & 23,720 &  & 23,511\\
+\hline
+C (620) &  & 54,870 & 54,870 & 52,432 &  & 69,259 &  & 68,651\\
+\hline
+C (630) &  & 24,320 & 24,320 & 23,079 &  & 30,053 &  & 29,789\\
+\hline
+WYAK &  & 5,412 & 5,412 & 5,145 &  & 6,722 &  & 6,663\\
+\hline
+Subtotal & 123,455 & 105,722 & 103,079 & 98,768 & 154,983 & 133,081 & 153,097 & 131,912\\
+\hline
+EYAK/SEO & 13,531 & 10,148 & 10,148 & 1 & 15,150 & 11,363 & 15,150 & 11,363\\
+\hline
+Total & 136,986 & 115,870 & 113,227 & 98,769 & 170,133 & 144,444 & 168,247 & 143,275\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{changes-from-the-previous-assessment}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment}}
+
+This year's pollock assessment features the following new data: 1) 2020
+total catch and catch-at-age from the fishery, 2) 2021 biomass and age
+composition from the Shelikof Strait acoustic survey, 3) 2021 NMFS
+Bottom Trawl survey biomass and length composition, 4) 2021 Summer
+GOA-wide acoustic survey biomass and length composition, and 5) 2021
+biomass and 2020 age composition from the ADF\&G crab/groundfish trawl
+survey. The age-structured assessment model used for GOA W/C/WYAK
+pollock assessment was identical to the 2019 and 2020 assessments (Model
+19.1).
+
+\hypertarget{spawning-biomass-and-stock-trends}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends}}
+
+The spawning stock is projected to continue to decline slightly in 2022
+and 2023 as the 2012 year class is further reduced in abundance, however
+with new fish recruited into the fishery, spawning biomass is projected
+to start increasing in 2025. The presence of several incoming year
+classes should result in a stabilization in biomass. However, the 2021
+Shelikof Strait survey showed an unexpected reduction in the estimated
+abundance of the 2018 year class (aged 3) relative to their abundance in
+the 2019 survey. The 2017 year-class (aged 4) is still present in high
+numbers, and a strong new 2020 class was detected in all surveys.
+Overall, the Shelikof Strait survey data in 2021 showed a similar
+biomass to 2020. Overall, survey indices seem to be providing similar
+trends with closer agreement with the ADF\&G survey, as well as the 2021
+NMFS bottom trawl survey results. An exception to this was the acoustic
+summer survey, which was 25\% percent lower than the 2019 estimate.
+
+\hypertarget{tier-determination-abcofls}{%
+\subsubsection{Tier determination
+ABC/OFLs}\label{tier-determination-abcofls}}
+
+The model projection of female spawning biomass in 2022 is 186,481,
+which is above B40\% (172,000), which places the W/C/WYAK Gulf of Alaska
+pollock stock in Tier 3a. The model estimated 2022 age-3+ biomass is
+1,097,340 t (for the W/C/WYAK areas) which was similar to the 2020
+estimate (1,007,850 t) The author scored the current risk conditions as
+Level 1 for all four risk categories, and thus did not recommend a
+reduction from maximum permissible ABC.
+
+The Team supported the authors' recommendation using the
+assessment-derived maximum permissible ABC for 2022. The resulting 2022
+ABC for pollock in the Gulf of Alaska west of 140° W longitude
+(W/C/WYAK) is 133,081 t which is a 26 \% increase from the 2021 ABC. The
+OFL is 154,983 t for 2022. The 2021 Prince William Sound (PWS) GHL is
+3,327t (2.5\% of the W/C/WYAK ABC).
+
+Pollock in southeast Alaska (East Yakutat and Southeastern areas) are in
+Tier 5. The recommended ABC is 11,363 t for 2022 and 2023, which is an
+increase of 12\% from the 2020 ABC. These recommendations are based on
+natural mortality (0.3) and the random effects model fit to the
+1990-2021 bottom trawl survey biomass estimates in Southeast Alaska.
+
+\hypertarget{status-determination}{%
+\subsubsection{Status determination}\label{status-determination}}
+
+The Gulf of Alaska pollock stock is not being subjected to overfishing
+and is neither overfished nor approaching an overfished condition.
+
+\hypertarget{area-apportionment}{%
+\subsubsection{Area apportionment}\label{area-apportionment}}
+
+The assessment was updated to include the most recent data available for
+area apportionments within each season (Appendix 1D.3 of the GOA pollock
+chapter). For winter seasons, model estimates of biomass for winter
+acoustic surveys conducted were used as a basis for apportionment.
+Apportionments for the B1 and B2 seasons were based on a 3-year weighted
+average of the sum of the AFSC bottom trawl survey and the gulf-wide
+acoustic summer survey (unchanged from the previous assessment). Area
+apportionments, including the 2.5\% of the ABC for the State of Alaska
+managed pollock fishery in Prince William Sound, are as follows:
+
+\begin{table}
+\centering
+\begin{tabular}[t]{l|r|r}
+\hline
+Area & ABC 2022 & ABC 2023\\
+\hline
+State GHL & 3,327 & 3,298\\
+\hline
+W (610) & 23,720 & 23,511\\
+\hline
+C (620) & 69,259 & 68,651\\
+\hline
+C (630) & 30,053 & 29,789\\
+\hline
+WYAK & 6,722 & 6,663\\
+\hline
+Subtotal & 133,081 & 131,912\\
+\hline
+EYAK/SEO & 11,363 & 11,363\\
+\hline
+Total & 144,444 & 143,275\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{goa-pacific-cod}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod}}
+
+\hypertarget{changes-from-the-previous-assessment-1}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-1}}
+
+\hypertarget{spawning-biomass-and-stock-trends-1}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-1}}
+
+\hypertarget{tier-determination-abcs-and-ofls}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls}}
+
+\hypertarget{status-determination-1}{%
+\subsubsection{Status determination}\label{status-determination-1}}
+
+\hypertarget{area-apportionment-1}{%
+\subsubsection{Area apportionment}\label{area-apportionment-1}}
+
+\hypertarget{goa-pacific-cod-1}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-1}}
+
+\hypertarget{changes-from-the-previous-assessment-2}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-2}}
+
+\hypertarget{spawning-biomass-and-stock-trends-2}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-2}}
+
+\hypertarget{tier-determination-abcs-and-ofls-1}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-1}}
+
+\hypertarget{status-determination-2}{%
+\subsubsection{Status determination}\label{status-determination-2}}
+
+\hypertarget{area-apportionment-2}{%
+\subsubsection{Area apportionment}\label{area-apportionment-2}}
+
+\hypertarget{goa-pacific-cod-2}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-2}}
+
+\hypertarget{changes-from-the-previous-assessment-3}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-3}}
+
+\hypertarget{spawning-biomass-and-stock-trends-3}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-3}}
+
+\hypertarget{tier-determination-abcs-and-ofls-2}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-2}}
+
+\hypertarget{status-determination-3}{%
+\subsubsection{Status determination}\label{status-determination-3}}
+
+\hypertarget{area-apportionment-3}{%
+\subsubsection{Area apportionment}\label{area-apportionment-3}}
+
+\hypertarget{goa-pacific-cod-3}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-3}}
+
+\hypertarget{changes-from-the-previous-assessment-4}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-4}}
+
+\hypertarget{spawning-biomass-and-stock-trends-4}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-4}}
+
+\hypertarget{tier-determination-abcs-and-ofls-3}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-3}}
+
+\hypertarget{status-determination-4}{%
+\subsubsection{Status determination}\label{status-determination-4}}
+
+\hypertarget{area-apportionment-4}{%
+\subsubsection{Area apportionment}\label{area-apportionment-4}}
+
+\hypertarget{goa-pacific-cod-4}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-4}}
+
+\hypertarget{changes-from-the-previous-assessment-5}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-5}}
+
+\hypertarget{spawning-biomass-and-stock-trends-5}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-5}}
+
+\hypertarget{tier-determination-abcs-and-ofls-4}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-4}}
+
+\hypertarget{status-determination-5}{%
+\subsubsection{Status determination}\label{status-determination-5}}
+
+\hypertarget{area-apportionment-5}{%
+\subsubsection{Area apportionment}\label{area-apportionment-5}}
+
+\hypertarget{goa-pacific-cod-5}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-5}}
+
+\hypertarget{changes-from-the-previous-assessment-6}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-6}}
+
+\hypertarget{spawning-biomass-and-stock-trends-6}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-6}}
+
+\hypertarget{tier-determination-abcs-and-ofls-5}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-5}}
+
+\hypertarget{status-determination-6}{%
+\subsubsection{Status determination}\label{status-determination-6}}
+
+\hypertarget{area-apportionment-6}{%
+\subsubsection{Area apportionment}\label{area-apportionment-6}}
+
+\hypertarget{goa-pacific-cod-6}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-6}}
+
+\hypertarget{changes-from-the-previous-assessment-7}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-7}}
+
+\hypertarget{spawning-biomass-and-stock-trends-7}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-7}}
+
+\hypertarget{tier-determination-abcs-and-ofls-6}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-6}}
+
+\hypertarget{status-determination-7}{%
+\subsubsection{Status determination}\label{status-determination-7}}
+
+\hypertarget{area-apportionment-7}{%
+\subsubsection{Area apportionment}\label{area-apportionment-7}}
+
+\hypertarget{goa-pacific-cod-7}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-7}}
+
+\hypertarget{changes-from-the-previous-assessment-8}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-8}}
+
+\hypertarget{spawning-biomass-and-stock-trends-8}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-8}}
+
+\hypertarget{tier-determination-abcs-and-ofls-7}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-7}}
+
+\hypertarget{status-determination-8}{%
+\subsubsection{Status determination}\label{status-determination-8}}
+
+\hypertarget{area-apportionment-8}{%
+\subsubsection{Area apportionment}\label{area-apportionment-8}}
+
+\hypertarget{goa-pacific-cod-8}{%
+\subsection{GOA Pacific cod}\label{goa-pacific-cod-8}}
+
+\hypertarget{changes-from-the-previous-assessment-9}{%
+\subsubsection{Changes from the previous
+assessment}\label{changes-from-the-previous-assessment-9}}
+
+\hypertarget{spawning-biomass-and-stock-trends-9}{%
+\subsubsection{Spawning biomass and stock
+trends}\label{spawning-biomass-and-stock-trends-9}}
+
+\hypertarget{tier-determination-abcs-and-ofls-8}{%
+\subsubsection{Tier determination, ABCs and
+OFLs}\label{tier-determination-abcs-and-ofls-8}}
+
+\hypertarget{status-determination-9}{%
+\subsubsection{Status determination}\label{status-determination-9}}
+
+\hypertarget{area-apportionment-9}{%
+\subsubsection{Area apportionment}\label{area-apportionment-9}}
+
+
+
+\end{document}

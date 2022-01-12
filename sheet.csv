@@ -1,0 +1,89 @@
+﻿Species  ,Area  ,OFL 2021 ,ABC 2021 ,TAC 2021 ,Nov 6 Catch ,OFL 2022 ,ABC 2022 ,OFL 2023 ,ABC 2023 
+Pollock,State GHL,n/a,2643,n/a,,n/a,3327,n/a,3298
+Pollock,W (610),n/a,18477,18477,18112,n/a,23720,n/a,23511
+Pollock,C (620),n/a,54870,54870,52432,n/a,69259,n/a,68651
+Pollock,C (630),n/a,24320,24320,23079,n/a,30053,n/a,29789
+Pollock,WYAK,n/a,5412,5412,5145,n/a,6722,n/a,6663
+Pollock,Subtotal,123455,105722,103079,98768,154983,133081,153097,131912
+Pollock,EYAK/SEO,13531,10148,10148,1,15150,11363,15150,11363
+Pollock,Total,136986,115870,113227,98769,170133,144444,168247,143275
+Pacific Cod,W,n/a,7986,5590,3792,n/a,7285,n/a,6933
+Pacific Cod,C,n/a,13656,10242,8258,n/a,14474,n/a,13775
+Pacific Cod,E,n/a,1985,1489,222,n/a,2284,n/a,2174
+Pacific Cod,Total,28977,23627,1733,12272,29131,24043,27715,22882
+Sablefish,W,n/a,3224,2428,1763,n/a,3727,n/a,3951
+Sablefish,C,n/a,9527,8056,6551,n/a,9965,n/a,9495
+Sablefish,WYAK,n/a,3451,2929,2188,n/a,3437,n/a,3159
+Sablefish,SEO,n/a,5273,4579,3613,n/a,5665,n/a,5398
+Sablefish,Total,n/a,21475,17992,14115,n/a,22794,n/a,22003
+Alaska-wide OFL and ABC2,AK Total,60426,29588,n/a,,40432,34521,42520,36318
+Shallow-water Flatfish,W,n/a,24151,13250,26,n/a,21256,n/a,22464
+Shallow-water Flatfish,C,n/a,28082,28082,1654,n/a,25305,n/a,26743
+Shallow-water Flatfish,WYAK,n/a,2808,2808,1,n/a,2531,n/a,2674
+Shallow-water Flatfish,EYAK/SEO,n/a,1123,1123,1,n/a,1518,n/a,1605
+Shallow-water Flatfish,Total,68841,56164,45263,1682,62273,50610,65676,53486
+Deep-water Flatfish,W,n/a,225,225,1,n/a,256,n/a,256
+Deep-water Flatfish,C,n/a,1914,1914,79,n/a,2139,n/a,2105
+Deep-water Flatfish,WYAK,n/a,2068,2068,5,n/a,1431,n/a,1408
+Deep-water Flatfish,EYAK/SEO,n/a,1719,1719,4,n/a,2082,n/a,2049
+Deep-water Flatfish,Total,7040,5926,5926,89,7026,5908,6920,5818
+Rex Sole,W,n/a,3013,3013,14,n/a,2981,n/a,3222
+Rex Sole,C,n/a,8912,8912,269,n/a,12076,n/a,13054
+Rex Sole,WYAK,n/a,1206,1206,2,n/a,1361,n/a,1439
+Rex Sole,EYAK/SEO,n/a,2285,2285,0,n/a,2723,n/a,2879
+Rex Sole,Total,18779,15416,15416,285,23302,19141,25049,20594
+Arrowtooth Flounder,W,n/a,32377,14500,332,n/a,33658,n/a,33214
+Arrowtooth Flounder,C,n/a,69072,69072,9114,n/a,68394,n/a,67493
+Arrowtooth Flounder,WYAK,n/a,8380,6900,47,n/a,6707,n/a,6619
+Arrowtooth Flounder,EYAK/SEO,n/a,17141,6900,24,n/a,11020,n/a,10875
+Arrowtooth Flounder,Total,151723,126970,97372,9517,143100,119779,141231,118201
+Flathead Sole,W,n/a,14209,8650,106,n/a,14755,n/a,14708
+Flathead Sole,C,n/a,20826,15400,555,n/a,22033,n/a,21962
+Flathead Sole,WYAK,n/a,2427,2427,0,n/a,1511,n/a,1506
+Flathead Sole,EYAK/SEO,n/a,1915,1915,0,n/a,1876,n/a,1870
+Flathead Sole,Total,47982,39377,28392,661,48928,40175,48757,40046
+Pacific ocean perch,W,n/a,1643,1643,1654,n/a,2602,n/a,2523
+Pacific ocean perch,C,n/a,27429,27429,24809,n/a,30806,n/a,29869
+Pacific ocean perch,WYAK,n/a,1705,1705,1663,n/a,1409,n/a,1366
+Pacific ocean perch,W/C/WYAK,36563,30777,30777,28126,41470,34817,40211,33758
+Pacific ocean perch,SEO,6414,5400,5400,0,4110,3451,3985,3346
+Pacific ocean perch,Total,42977,36177,36177,28126,45580,38268,44196,37104
+Northern Rockfish,W,n/a,2023,2023,708,n/a,1944,n/a,1859
+Northern Rockfish,C,n/a,3334,3334,1670,n/a,3202,n/a,3061
+Northern Rockfish,E,n/a,1,0,0,n/a,0,n/a,0
+Northern Rockfish,Total,6396,5358,5357,2378,6143,5146,5874,4920
+Shortraker Rockfish,W,n/a,52,52,5,n/a,51,n/a,51
+Shortraker Rockfish,C,n/a,284,284,197,n/a,280,n/a,280
+Shortraker Rockfish,E,n/a,372,372,273,n/a,374,n/a,374
+Shortraker Rockfish,Total,944,708,708,475,940,705,940,705
+Dusky Rockfish,W,n/a,270,270,146,n/a,269,n/a,259
+Dusky Rockfish,C,n/a,4548,4548,2748,n/a,4534,n/a,4373
+Dusky Rockfish,WYAK,n/a,468,468,30,n/a,427,n/a,412
+Dusky Rockfish,EYAK/SEO,n/a,103,103,0,n/a,142,n/a,137
+Dusky Rockfish,Total,8655,5389,5389,2924,8614,5372,8146,5181
+Rougheye and Blackspotted Rockfish,W,n/a,168,168,21,n/a,184,n/a,182
+Rougheye and Blackspotted Rockfish,C,n/a,456,456,175,n/a,235,n/a,234
+Rougheye and Blackspotted Rockfish,E,n/a,588,588,185,n/a,369,n/a,365
+Rougheye and Blackspotted Rockfish,Total,1456,1212,1212,381,947,788,937,781
+Demersal shelf rockfish,Total,405,257,257,105,422,268,422,268
+Thornyhead Rockfish,W,n/a,352,352,42,n/a,352,n/a,352
+Thornyhead Rockfish,C,n/a,910,910,99,n/a,910,n/a,910
+Thornyhead Rockfish,E,n/a,691,691,133,n/a,691,n/a,691
+Thornyhead Rockfish,Total,2604,1953,1953,274,2604,1953,2604,1953
+Other Rockfish,W/C ,n/a,940,940,1060,n/a,940,n/a,940
+Other Rockfish,WYAK,n/a,369,369,119,n/a,370,n/a,370
+Other Rockfish,EYAK/SEO,n/a,2744,300,40,n/a,2744,n/a,2744
+Other Rockfish,Total,5320,4053,1609,1219,5320,4054,5320,4054
+Atka mackerel,Total,6200,4700,3000,940,6200,4700,6200,4700
+Big Skate,W,n/a,758,758,142,n/a,591,n/a,591
+Big Skate,C,n/a,1560,1560,752,n/a,1482,n/a,1482
+Big Skate,E,n/a,890,890,193,n/a,794,n/a,794
+Big Skate,Total,4278,3208,3208,1087,3822,2867,3822,2867
+Longnose Skate,W,n/a,158,158,26,n/a,151,n/a,151
+Longnose Skate,C,n/a,1875,1875,447,n/a,2044,n/a,2044
+Longnose Skate,E,n/a,554,554,417,n/a,517,n/a,517
+Longnose Skate,Total,3449,2587,2587,890,3616,2712,3616,2712
+Other Skates,Total,1166,875,875,632,1311,984,1311,984
+Sharks,Total,5006,3755,3755,1639,5006,3755,5006,3755
+Octopuses,Total,1307,980,980,51,1307,980,1307,980
+TOTAL,Total,610917,484150,407975.75,178511,616157,511173,615816,511584
